@@ -13,17 +13,17 @@
       "description": "Description of the chain"
     },
     "mainModel": {
-      "$ref": "/model.schema.json"
+      "$ref": "https://raw.githubusercontent.com/lucreiss/Dados/master/Estat_II/model.json"
     },
     "fallbackModel": {
-      "$ref": "/model.schema.json"
+      "$ref": "https://raw.githubusercontent.com/lucreiss/Dados/master/Estat_II/model.json"
     },
     "tools": {
       "type": "array",
       "title": "Tools",
       "description": "Tools the chain has access to",
       "items": {
-        "$ref": "/tool.schema.json"
+        "$ref": "https://raw.githubusercontent.com/lucreiss/Dados/master/Estat_II/tool.json"
       }
     },
     "temperature": {
